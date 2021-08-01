@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    String.fromCharCode(72, 101, 108, 108, 111); // Output: Hello
+    'Mercedes'.charAt(5); //Output: d
+    'Hello'.concat(' World!'); //Output: Hello World!
+    'Hi there!'. endsWith('!'); //Output: true
+    'bmw audi mercedes'.includes('bmw'); //Output: true
+    '<3 '.repeat(4); //Output: '<3 <3 <3 <3 '
+    'Like JavaScript'.replace(/Like/, 'Love'); //Output: Love JavaScript
+    'bmw audi dodge'search(/audi/); //Output: 4 (índice da primeira letra da palavra)
+    'get me this part'.slice(7,11); // Output: this
+    'split these words'.split(' ');  //Output: ['split', 'these', 'words']
+    'JavaScript'.indexOf('S'); //Output: 4
+    'a'.localeCompare('b'); //Output: -1
+    'abcABCdefDEF'.match(/[A-C]/g); //Output: ['A', 'B', 'C']
+    'Hi'.padEnd(6, '!'); //Output: Hi!!!!
+    'Hi'.padStart(6, '!'); //Output: !!!!Hi
+    'How are you?'.startsWith('How are you?'); //Output: true
+    'MAKE ME SMALL'.toLowerCase(); //Output: make me small
+    'make me big'.toUpperCase(); //Output: MAKE ME BIG
+    '   extra spaces   '.trim(); //Output: 'extra spaces'
+    '   extra spaces   '.trimEnd(); //Output: '   extra spaces'
+    '   extra spaces   '.trimStart(); //Output: 'extra spaces   '
+    String.raw`no \n enters \n today`; //Output: no \n enters \n today
+
+
+    </script>
+</body>
+</html>
+
+
